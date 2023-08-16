@@ -1,0 +1,16 @@
+.loadingscreen{
+    animation-name:slidein; 
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
